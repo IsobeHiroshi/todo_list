@@ -1,0 +1,74 @@
+body {
+  background: #04a1bf;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 600;
+  color: lightyellow;
+}
+
+input {
+  border-radius: 5px;
+  min-width: 65%;
+  padding: 5px;
+  border: none;
+}
+
+table {
+  margin: auto;
+  border: 1px solid black;
+}
+
+table thead {
+  background-color: navy;
+}
+
+table td {
+  color: white;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.enter {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #04a1bf;
+  background-color: #025f70;
+  transition: all 0.75s ease;
+  font-weight: normal;
+}
+
+#addButton {
+  color: white;
+}
+
+#clearButton {
+  color: white;
+  background-color: red;
+  margin-top: 10px;
+}
+
+#updateButton {
+  color: white;
+  background-color: darkgreen;
+  margin-top: 20px;
+}
+
+.enter:hover {
+  background-color: #02798f;
+  color: #ffcd5d;
+}
+
+table tr.completedTask {
+  background-color: darkgrey;
+  color: darkgrey;
+}
